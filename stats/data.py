@@ -14,4 +14,4 @@ for i in game_files:
 
 games = pd.concat(game_frames)
 
-games.loc[games["multi5"]== '??', multi5] = ""
+games.loc[games["multi5"]== '??', "multi5"] = ""
